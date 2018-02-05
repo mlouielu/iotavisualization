@@ -20,8 +20,12 @@ render(
             the <a href='https://iota.org/IOTA_Whitepaper.pdf'>white paper</a>.
           </p>
           <p>
-            The source code can be found on <a href='https://github.com/iotaledger/iotavisualization'>github</a>.
+            This is a modification from Louie Lu. The source code can be found on <a href="https://github.com/mlouielu/iotavisualization">github</a>.
           </p>
+          <p>
+            You can change the cumulative weight filter value to observe which transaction's
+            cumulative weight have occur the threshold. When hover on the transaction,
+            you can see the transaction's cumulative weight and score.</p>
         </div>
       </div>
       <TangleContainer />
