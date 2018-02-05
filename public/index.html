@@ -5,6 +5,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta property="og:image" content="https://i.imgur.com/Gg1sN8a.jpg">
+  <meta property="og:title" content="IOTA visulization simulator">
+  <meta property="og:url" content="https://simulator.iotatangle.space">
+  <meta property="og:type" content="website">
 
   <script type="text/javascript" src="bundle.js" async></script>
   <link href="https://fonts.googleapis.com/css?family=Lato|Play" rel="stylesheet">
@@ -12,21 +16,13 @@
   <title>IOTA visualization</title>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
-  <!-- This site does not use cookies -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113325485-1"></script>
-  <script async src="https://cdn.jsdelivr.net/npm/fingerprintjs2@1.5.1/dist/fingerprint2.min.js"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111703324-2"></script>
   <script>
-    window.addEventListener('load', function() { 
-      window.dataLayer = window.dataLayer || [];
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-      new Fingerprint2({detectScreenOrientation:false}).get(function(result){
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'UA-113325485-1', {'storage': 'none', 'clientId':result});
-        gtag('set', 'anonymizeIp', true);
-        gtag('send', 'pageview');
-      });
-    });
+    gtag('config', 'UA-111703324-2');
   </script>
 </head>
 <body>
